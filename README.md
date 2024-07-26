@@ -16,31 +16,31 @@ In this project, we leverage Long Short-Term Memory (LSTM) neural networks, a ty
 - **Matplotlib and Seaborn:** Visualization of predicted vs. actual stock prices.
 - **yfinance library:** Real-time financial data retrieval.
 
-## Project Overview 💡
+## Project Overview
 In this project, we leverage historical stock market data to train an LSTM model. The model learns from past price patterns and trends, enabling it to predict future stock prices. The LSTM network is specifically designed to capture long-term dependencies and has proven to be effective in time series forecasting tasks.
 
-## Dataset 📊
+## Dataset
 We use a publicly available dataset containing historical stock prices of various companies. The dataset includes features like opening price, closing price, volume, etc. We preprocess the data, splitting it into training and testing sets, and perform any necessary data transformations.
 
-## Model Training 🧑🏻‍💻
+## Model Training
 The LSTM model is built using TensorFlow and Keras. We optimize hyperparameters such as the number of hidden layers, neurons per layer, and learning rate. Techniques like regularization and dropout are employed to prevent overfitting.
 
-## Evaluation and Results 📈
+## Evaluation and Results
 Once trained, the model's performance is evaluated on the testing dataset using metrics such as mean squared error (MSE), root mean squared error (RMSE), and mean absolute error (MAE). Visualizations of predicted vs. actual stock prices provide insights into the model's accuracy and reliability.
 
 ![Predicted vs. Actual stock prices](https://github.com/ujjwalgupta1454/stock-market-prediction-using_LSTM/blob/main/Results%20Screenshots/Predicted%20vs.%20Actual%20stock%20prices.png)
 
 ![Predicted vs. Actual values & F2 Score](https://github.com/ujjwalgupta1454/stock-market-prediction-using_LSTM/blob/main/Results%20Screenshots/Predicted%20vs.%20Actual%20values%20%26%20F2%20Score.png)
 
-### Results and Discussion 📊
+### Results and Discussion
 We achieved an impressive R2 score of 0.97, demonstrating the model's ability to explain stock price variance. The mean absolute error of 4.63% underscores its reliability in predicting stock movements. Visualizations highlight the model's trend-following ability, aiding in potential financial gains.
 
-## Contributing 🤝
-We welcome contributions to enhance the project. If you have suggestions, bug fixes, or new features to add, please submit a pull request. Your contributions are valued!
+## Contributing 
+I welcome contributions to enhance the project and make it even more effective. If you have any suggestions, bug fixes, or new features to add, please submit a pull request. I appreciate your contributions!
 
-## Contact 📩
-For questions or inquiries, feel free to reach out:
+## Contact
+For any questions or inquiries, feel free to reach out to me:
 - **Email:** ujjwalgupta1454@gmail.com
 - **LinkedIn:** [Ujjwal Gupta](https://www.linkedin.com/in/ujjwal-gupta24/)
 
-Thank you for visiting my project repository. 😇
+Thank you for visiting my project repository.
